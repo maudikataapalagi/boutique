@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Store</title>
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="text-muted" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3">
+                            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                            <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="#">Diva Boutique</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn btn-sm btn-outline-secondary" href="order.html">Order</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-image: url(https://mnews-wp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/11/23143125/close-up-clothes-hanging-rack.jpg); background-size: cover; min-height: 400px;">
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="pb-3 font-italic border-bottom">Product Best Seller</h3>
+    </div>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-primary">Blouse</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">Atasan Blouse Wanita</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Rp. 190.000</div>
+                        <p class="card-text mb-auto">Panjang Baju: 61 cm<br>
+                            Pilihan produk: Black, Mocca & Pink<br>
+                            Kemiripan Barang dengan Gambar: +/- 90% - Faktor Efek Cahaya Kamera
+                        </p>
+                    </div>
+                    <img class="card-img-right flex-auto d-none d-md-block" src="https://lzd-img-global.slatic.net/g/p/bb8da7a3b1bf64187440d56378102a63.jpg_720x720q80.jpg" alt="Card image cap" height="200px">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-primary">Cardigan</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">Cardigan Rajut Crop</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Rp. 300.000</div>
+                        Detail : Setelan Tanktop + Cardigan
+                        Size LD : 84-104cm
+                        P : 43cm
+                        P.Lengan : 62cm</p>
+                    </div>
+                    <img class="card-img-right flex-auto d-none d-md-block" src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//102/MTA-59598110/no-brand_ga-in-set-cardi-tanktop-cardigan-rajut-crop-knit-import-setelan-premium-quality-outer-inner-2in1_full01.jpg" alt="Card image cap" height="200px">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <strong class="d-inline-block mb-2 text-primary">Pashmina</strong>
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">Pahmina Ceruty</a>
+                                </h3>
+                                <div class="mb-1 text-muted">Rp. 25.000</div>
+                                Panjang -/+ 180cm
+                                Lebar -/+ 75cm
+                                </p>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="https://gazwah.id/wp-content/uploads/2017/12/Jilbab-Pashmina-Mazaya-Basic-Jilbab-Pashmina-Ceruty-Babydoll-Harga-Pashmina-Ceruty-Terbaik-7.jpg" alt="Card image cap" height="200px">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <strong class="d-inline-block mb-2 text-primary">Pashmina</strong>
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">Pashmina Silk</a>
+                                </h3>
+                                <div class="mb-1 text-muted">Rp. 30.000</div>
+                                Bahan: Silk Satin
+                                Ukuran: 75 x 180 cm
+                                Finishing: Jahit Tepi
+                                Model: Garis-Garis Lurus
+                                Berat: 150gr</p>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3F9sHLcJDRg5wvz4kE9LSwbR2fOFYnBwMpXlLKi2RkZyur0rTZNQ3Jjg63BNnvyb-848&usqp=CAU" alt="Card image cap" height="200px">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                                    <div class="card-body d-flex flex-column align-items-start">
+                                        <strong class="d-inline-block mb-2 text-primary">Blazer</strong>
+                                        <h3 class="mb-0">
+                                            <a class="text-dark" href="#">Blazer Wanita</a>
+                                        </h3>
+                                        <div class="mb-1 text-muted">Rp. 100.000</div>
+                                        Bahan : Katun Linen Rami
+                                        Ukuran : All Size Fit To L (Ld 100cm , panjang 72cm)
+                                        Warna : Beige, Khaki</p>
+                                    </div>
+                                    <img class="card-img-right flex-auto d-none d-md-block" src="https://images.tokopedia.net/img/cache/250-square/VqbcmM/2022/5/23/f0177320-38e2-4f6c-bc43-ed351390cdb9.jpg?ect=4g" alt="Card image cap" height="200px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                                    <div class="card-body d-flex flex-column align-items-start">
+                                        <strong class="d-inline-block mb-2 text-primary">Rok</strong>
+                                        <h3 class="mb-0">
+                                            <a class="text-dark" href="#">Rok Korean</a>
+                                        </h3>
+                                        <div class="mb-1 text-muted">Rp. 200.000</div>
+                                        Ada Resleting di Belakang & Belahan Rempel
+                                        Size Standart : S M L XL
+                                        Size Jumbo : XXL L3 L4 L5</p>
+                                    </div>
+                                    <img class="card-img-right flex-auto d-none d-md-block" src="https://id-live-01.slatic.net/p/8442dd3ed75fe7739eabf3c1b4f09293.jpg" alt="Card image cap" height="200px">
+                                </div>
+                            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-image: url(https://lh3.googleusercontent.com/p/AF1QipPjps3xZgBJhL0z8W-k4sPeW_4r515jgKqrX9KB=w1080-h608-p-no-v0); background-size: cover; min-height: 400px;">
+        </div>
+    </div>
+    <div class="container">
+        <a href="produk-lain.html"><button type="button" class="btn-block btn btn-outline-primary">Produk Lain</button></a>
+    </div>
+    <div class="menubar">
+        <ul id="menu">
+            <li><a href="cart.php">SHOPPING CART</a></li>
+            <li><a href="#">CONTACT US</a></li>
+       </ul>
+   </div>
+    <hr>
+    <nav class="navbar navbar-expand-sm navbar-light d-flex justify-content-between" style="background-color: #fdf2e3;">
+        <a class="p-2 text-muted" href="#">&copy; Diva Boutique</a>
+    </nav>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <img src="assets/img/success-buy.png" alt="" width="320">
+        <h2 class="section-title">Sukses Terbayar!</h2>
+        <p class="about__description">Silakan tunggu update terbaru dari kami via email yang sudah <br>Anda daftarkan sebelumnya.</p>
+            
+        <div class="backhome__button">
+            <a href="index.html" class="button">Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>
